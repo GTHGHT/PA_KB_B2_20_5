@@ -14,6 +14,6 @@ def renamer(path):
 
 if __name__ == '__main__':
     train_path = r'C:\xampp\htdocs\PA\PA_KB_B2_20_5\datasets\train'
-    test_path = r'C:\xampp\htdocs\PA\PA_KB_B2_20_5\datasets\test'
+    val_path = r'C:\xampp\htdocs\PA\PA_KB_B2_20_5\datasets\val'
     renamer(train_path)
-    renamer(test_path)
+    renamer(val_path)
